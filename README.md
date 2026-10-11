@@ -1,3 +1,77 @@
+## 🚀 Live Demo
+
+**Try the deployed application:** [Open Multi-Agent AI System](YOUR_STREAMLIT_APP_URL)
+
+The application is deployed using Streamlit Community Cloud.
+
+## ✨ Features
+
+- **Planner Agent:** Breaks user requests into manageable tasks.
+- **Researcher Agent:** Retrieves relevant information and sources.
+- **Executor Agent:** Performs supported tasks, including safe calculations.
+- **Verifier Agent:** Checks task results and verification evidence.
+- **Interactive Dashboard:** Displays workflow progress, task status, results, and a downloadable report.
+
+## 🛠️ Tech Stack
+
+- Python
+- Streamlit
+- OpenRouter API
+- Wikipedia-based information retrieval
+- Pytest for calculator testing
+
+## 💻 Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/gowthami-7/-multi-agent.git
+   cd -multi-agent
+   ```
+
+2. Create and activate a virtual environment:
+
+   ```bash
+   python -m venv venv
+   ```
+
+   Windows:
+
+   ```bat
+   venv\Scripts\activate
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Create a `.env` file in the project root and configure your OpenRouter API key:
+
+   ```text
+   OPENROUTER_API_KEY=your_api_key_here
+   ```
+
+5. Start the application:
+
+   ```bash
+   python -m streamlit run app/main.py
+   ```
+
+**Security:** Never commit your `.env` file or publish your API key.
+
+## 🧪 Tests
+
+Run the calculator tests using:
+
+```bash
+python -m pytest tests/test_calculator.py -v
+```
+
+
+
+
 \# Autonomous Multi-Agent AI Workflow \& Task Automation System
 
 
