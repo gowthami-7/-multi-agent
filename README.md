@@ -300,7 +300,7 @@ The Planning Agent creates calculation and verification tasks. The Execution Age
 
 
 
-A successful test run returned a completed workflow, a verification score of 85/100, and no workflow errors. The expected arithmetic result was 3,600.
+A successful test run returned a completed workflow, a verification score of 100/100, and no workflow errors. The expected arithmetic result was 3,600.
 
 
 
